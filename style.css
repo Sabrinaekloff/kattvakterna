@@ -134,7 +134,7 @@ button {
 button:hover {
     background-color: #800040;
 }
-.bildgalleri {
+.bilder {
     display: flex;
     justify-content: center;
     gap: 20px;
