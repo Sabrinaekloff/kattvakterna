@@ -134,6 +134,21 @@ button {
 button:hover {
     background-color: #800040;
 }
+.bildgalleri {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.bilder img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
 
 footer {
     background-color: #ffe6f0;
